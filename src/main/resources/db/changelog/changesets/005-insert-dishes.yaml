@@ -1,0 +1,269 @@
+databaseChangeLog:
+  - changeSet:
+      id: 005
+      author: kosovandrey
+      changes:
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Куриная грудка"
+              - column:
+                  name: calories
+                  valueNumeric: 165
+              - column:
+                  name: proteins
+                  valueNumeric: 31.0
+              - column:
+                  name: fats
+                  valueNumeric: 3.6
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 0.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Белый рис"
+              - column:
+                  name: calories
+                  valueNumeric: 130
+              - column:
+                  name: proteins
+                  valueNumeric: 2.7
+              - column:
+                  name: fats
+                  valueNumeric: 0.3
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 28.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Авокадо"
+              - column:
+                  name: calories
+                  valueNumeric: 160
+              - column:
+                  name: proteins
+                  valueNumeric: 2.0
+              - column:
+                  name: fats
+                  valueNumeric: 14.7
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 8.5
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Яйцо вареное"
+              - column:
+                  name: calories
+                  valueNumeric: 70
+              - column:
+                  name: proteins
+                  valueNumeric: 6.3
+              - column:
+                  name: fats
+                  valueNumeric: 4.8
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 0.6
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Гречневая каша"
+              - column:
+                  name: calories
+                  valueNumeric: 132
+              - column:
+                  name: proteins
+                  valueNumeric: 3.3
+              - column:
+                  name: fats
+                  valueNumeric: 0.8
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 28.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Овсянка"
+              - column:
+                  name: calories
+                  valueNumeric: 68
+              - column:
+                  name: proteins
+                  valueNumeric: 2.4
+              - column:
+                  name: fats
+                  valueNumeric: 1.0
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 12.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Сыр моцарелла"
+              - column:
+                  name: calories
+                  valueNumeric: 280
+              - column:
+                  name: proteins
+                  valueNumeric: 22.0
+              - column:
+                  name: fats
+                  valueNumeric: 20.0
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 2.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Банан"
+              - column:
+                  name: calories
+                  valueNumeric: 89
+              - column:
+                  name: proteins
+                  valueNumeric: 1.1
+              - column:
+                  name: fats
+                  valueNumeric: 0.3
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 22.8
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Греческий йогурт"
+              - column:
+                  name: calories
+                  valueNumeric: 59
+              - column:
+                  name: proteins
+                  valueNumeric: 3.6
+              - column:
+                  name: fats
+                  valueNumeric: 0.4
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 10.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Лосось"
+              - column:
+                  name: calories
+                  valueNumeric: 206
+              - column:
+                  name: proteins
+                  valueNumeric: 22.0
+              - column:
+                  name: fats
+                  valueNumeric: 13.0
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 0.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Шоколад черный (70-85%)"
+              - column:
+                  name: calories
+                  valueNumeric: 546
+              - column:
+                  name: proteins
+                  valueNumeric: 7.8
+              - column:
+                  name: fats
+                  valueNumeric: 43.0
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 46.0
+              - column:
+                  name: version
+                  valueNumeric: 1
+
+        - insert:
+            tableName: dishes
+            columns:
+              - column:
+                  name: name
+                  value: "Миндаль"
+              - column:
+                  name: calories
+                  valueNumeric: 575
+              - column:
+                  name: proteins
+                  valueNumeric: 21.2
+              - column:
+                  name: fats
+                  valueNumeric: 49.4
+              - column:
+                  name: carbohydrates
+                  valueNumeric: 21.7
+              - column:
+                  name: version
+                  valueNumeric: 1
+

@@ -1,0 +1,67 @@
+databaseChangeLog:
+  - changeSet:
+      id: 004
+      author: kosovandrey
+      changes:
+        - createTable:
+            tableName: meal_items
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: meal_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: dish_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: portion
+                  type: DOUBLE PRECISION
+                  constraints:
+                    nullable: false
+              - column:
+                  name: calories
+                  type: DOUBLE PRECISION
+                  constraints:
+                    nullable: false
+              - column:
+                  name: proteins
+                  type: DOUBLE PRECISION
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fats
+                  type: DOUBLE PRECISION
+                  constraints:
+                    nullable: false
+              - column:
+                  name: carbohydrates
+                  type: DOUBLE PRECISION
+                  constraints:
+                    nullable: false
+              - column:
+                  name: version
+                  type: BIGINT
+                  defaultValueNumeric: 0
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: meal_items
+            baseColumnNames: meal_id
+            referencedTableName: meals
+            referencedColumnNames: id
+            constraintName: fk_meal_item_meal
+        - addForeignKeyConstraint:
+            baseTableName: meal_items
+            baseColumnNames: dish_id
+            referencedTableName: dishes
+            referencedColumnNames: id
+            constraintName: fk_meal_item_dish

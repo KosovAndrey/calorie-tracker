@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changesets/001-create-users.yaml
+  - include:
+      file: db/changelog/changesets/002-create-dishes.yaml
+  - include:
+      file: db/changelog/changesets/003-create-meals.yaml
+  - include:
+      file: db/changelog/changesets/004-create-meal-items.yaml
+  - include:
+      file: db/changelog/changesets/005-insert-dishes.yaml 
