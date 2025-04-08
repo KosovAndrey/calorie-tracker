@@ -122,4 +122,4 @@ mvn test
 
 ## Лицензия
 
-MIT License
+Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
